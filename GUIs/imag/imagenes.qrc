@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="img">
+    <file>ayuda.png</file>
+    <file>numeros.png</file>
+  </qresource>
+</RCC>

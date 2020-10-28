@@ -1,0 +1,17 @@
+#comvertir la interfas grafica a python
+
+    pyuic5 mainWindows.ui > mainWindows.py
+
+#converitir las interfas grafica imagenes a python
+
+    pyrcc5 imagenes.qrc -o imagenes_rc.py
+
+    nota: escribirle _rc al archivo q convertira a python
+
+
+https://www.youtube.com/watch?v=yqSWgwj1-ZU&list=PLjARR1053fYm1tNe3lMEqn5acADPxSWTY&index=20
+http://jquery-manual.blogspot.com/2015/06/7-python-pyqt-interfaz-grafica-radio.html
+jquery-manual.blogspot.com/2015/06/6-python-pyqt-interfaz-grafica-validar.html
+https://www.c-sharpcorner.com/blogs/crud-operations-in-python-using-mysql-database
+http://jquery-manual.blogspot.com/2015/07/20-python-pyqt-interfaz-grafica-qtsql.html
+    

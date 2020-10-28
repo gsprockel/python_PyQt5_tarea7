@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>564</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>564</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuprogramas">
+    <property name="title">
+     <string>Programas</string>
+    </property>
+    <addaction name="actionmultiplicar"/>
+    <addaction name="actionNumero_primo"/>
+    <addaction name="actionNumero_Par"/>
+    <addaction name="actionNumero_perfecto"/>
+    <addaction name="actionNumero_Exponencial"/>
+   </widget>
+   <widget class="QMenu" name="menuAcerca_de">
+    <property name="title">
+     <string>Acerca de</string>
+    </property>
+   </widget>
+   <addaction name="menuprogramas"/>
+   <addaction name="menuAcerca_de"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionmultiplicar"/>
+   <addaction name="actionNumero_primo"/>
+   <addaction name="actionNumero_Par"/>
+   <addaction name="actionNumero_perfecto"/>
+   <addaction name="actionNumero_Exponencial"/>
+  </widget>
+  <action name="actionmultiplicar">
+   <property name="icon">
+    <iconset resource="imag/imagenes.qrc">
+     <normaloff>:/img/numeros.png</normaloff>:/img/numeros.png</iconset>
+   </property>
+   <property name="text">
+    <string>multiplicar</string>
+   </property>
+  </action>
+  <action name="actionNumero_primo">
+   <property name="text">
+    <string>Numero primo</string>
+   </property>
+  </action>
+  <action name="actionNumero_Par">
+   <property name="text">
+    <string>Numero Par</string>
+   </property>
+  </action>
+  <action name="actionNumero_perfecto">
+   <property name="text">
+    <string>Numero perfecto</string>
+   </property>
+  </action>
+  <action name="actionNumero_Exponencial">
+   <property name="text">
+    <string>Numero Exponencial</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="imag/imagenes.qrc"/>
+ </resources>
+ <connections/>
+</ui>
